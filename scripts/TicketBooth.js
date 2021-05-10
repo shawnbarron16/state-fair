@@ -7,7 +7,6 @@ eventHub.addEventListener(
         if (evt.target === eventHub.getElementsByClassName("ticketBooth")) {
             const rideEvent = new CustomEvent("rideTicketPurchased")
             eventHub.dispatchEvent(rideEvent)
-
         }
     }
 )
